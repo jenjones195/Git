@@ -1,0 +1,5 @@
+[20-Jun-2017 17:23:33] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php/modules/http.so' - /usr/lib/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[20-Jun-2017 17:23:34] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php/modules/http.so' - /usr/lib/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[20-Jun-2017 17:23:34] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php/modules/http.so' - /usr/lib/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[20-Jun-2017 17:23:34] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php/modules/http.so' - /usr/lib/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[20-Jun-2017 17:23:55] PHP Warning:  Module 'http' already loaded in Unknown on line 0
