@@ -3,3 +3,36 @@
 [20-Jun-2017 17:23:34] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php/modules/http.so' - /usr/lib/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
 [20-Jun-2017 17:23:34] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php/modules/http.so' - /usr/lib/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
 [20-Jun-2017 17:23:55] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[20-Jun-2017 17:51:26] PHP Parse error:  syntax error, unexpected '<' in /vagrant/site/index.php on line 7
+[20-Jun-2017 17:51:48] PHP Parse error:  syntax error, unexpected '<' in /vagrant/site/index.php on line 7
+[20-Jun-2017 17:51:51] PHP Parse error:  syntax error, unexpected '<' in /vagrant/site/index.php on line 7
+[20-Jun-2017 17:51:53] PHP Parse error:  syntax error, unexpected '<' in /vagrant/site/index.php on line 7
+[20-Jun-2017 17:51:55] PHP Parse error:  syntax error, unexpected '<' in /vagrant/site/index.php on line 7
+[20-Jun-2017 17:52:22] PHP Warning:  include(config/config.php): failed to open stream: No such file or directory in /vagrant/site/config/init.php on line 2
+[20-Jun-2017 17:52:22] PHP Warning:  include(): Failed opening 'config/config.php' for inclusion (include_path='.:/vagrant/site/config/:/vagrant/site/') in /vagrant/site/config/init.php on line 2
+[20-Jun-2017 17:52:22] PHP Notice:  Use of undefined constant DB_HOSTNAME - assumed 'DB_HOSTNAME' in /vagrant/site/include/db_query.php on line 7
+[20-Jun-2017 17:52:22] PHP Notice:  Use of undefined constant DB_DATABASE - assumed 'DB_DATABASE' in /vagrant/site/include/db_query.php on line 7
+[20-Jun-2017 17:52:22] PHP Notice:  Use of undefined constant DB_USERNAME - assumed 'DB_USERNAME' in /vagrant/site/include/db_query.php on line 13
+[20-Jun-2017 17:52:22] PHP Notice:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' in /vagrant/site/include/db_query.php on line 13
+[20-Jun-2017 17:52:22] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'DB_HOSTNAME' (1)' in /vagrant/site/include/db_query.php:13
+Stack trace:
+#0 /vagrant/site/include/db_query.php(13): PDO->__construct('mysql:host=DB_H...', 'DB_USERNAME', 'DB_PASSWORD', Array)
+#1 /vagrant/site/config/init.php(3): include('/vagrant/site/i...')
+#2 /vagrant/site/index.php(2): include('/vagrant/site/c...')
+#3 {main}
+  thrown in /vagrant/site/include/db_query.php on line 13
+[20-Jun-2017 17:52:48] PHP Warning:  include(config/config.php): failed to open stream: No such file or directory in /vagrant/site/config/init.php on line 2
+[20-Jun-2017 17:52:49] PHP Warning:  include(): Failed opening 'config/config.php' for inclusion (include_path='.:/vagrant/site/config/:/vagrant/site/') in /vagrant/site/config/init.php on line 2
+[20-Jun-2017 17:52:49] PHP Notice:  Use of undefined constant DB_HOSTNAME - assumed 'DB_HOSTNAME' in /vagrant/site/include/db_query.php on line 7
+[20-Jun-2017 17:52:49] PHP Notice:  Use of undefined constant DB_DATABASE - assumed 'DB_DATABASE' in /vagrant/site/include/db_query.php on line 7
+[20-Jun-2017 17:52:49] PHP Notice:  Use of undefined constant DB_USERNAME - assumed 'DB_USERNAME' in /vagrant/site/include/db_query.php on line 13
+[20-Jun-2017 17:52:49] PHP Notice:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' in /vagrant/site/include/db_query.php on line 13
+[20-Jun-2017 17:52:49] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'DB_HOSTNAME' (1)' in /vagrant/site/include/db_query.php:13
+Stack trace:
+#0 /vagrant/site/include/db_query.php(13): PDO->__construct('mysql:host=DB_H...', 'DB_USERNAME', 'DB_PASSWORD', Array)
+#1 /vagrant/site/config/init.php(3): include('/vagrant/site/i...')
+#2 /vagrant/site/index.php(2): include('/vagrant/site/c...')
+#3 {main}
+  thrown in /vagrant/site/include/db_query.php on line 13
+[20-Jun-2017 17:52:56] PHP Warning:  include(config/config.php): failed to open stream: No such file or directory in /vagrant/site/config/init.php on line 2
+[20-Jun-2017 17:52:56] PHP Warning:  include(): Failed opening 'config/config.php' for inclusion (include_path='.:/vagrant/site/config/:/vagrant/site/') in /vagrant/site/config/init.php on line 2
